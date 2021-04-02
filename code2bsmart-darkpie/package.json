@@ -1,0 +1,38 @@
+{
+    "name": "code2bsmart-darkpie",
+    "displayName": "code2bsmart darkpie",
+    "description": "Code2bsmart theme",
+    "version": "0.0.1",
+    "publisher": "Code2bsmart",
+    "repository": {
+
+"type": "git",
+"url": "https://github.com/Code2bSmart/darkpie"
+
+
+    },
+"keywords": [
+    "theme",
+    "darkpie",
+    "Code2bsmart",
+    "Dark",
+    "dark theme"
+],
+
+
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "code2bsmart darkpie",
+                "uiTheme": "vs-dark",
+                "path": "./themes/code2bsmart darkpie-color-theme.json"
+            }
+        ]
+    }
+}
